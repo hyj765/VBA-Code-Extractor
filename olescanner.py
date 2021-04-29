@@ -183,8 +183,6 @@ class VBAChecker:
         print(badAPIlist['URLDownloadToFile'])
         return True ,badAPIlist
 
-#routine
-#zip 파일로 변환 -> 내부에서 VBAProject 추출 -> 악성파일 API 사용여부 확인 -> 악성파일 판단 시에 VBAProject만 추출 후 -> 합침
 
 if __name__ == '__main__':
     start =time.time()
